@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: my-eks-pipeline-deployment
-          image: container_iamge
+          image: nginx
           ports:
             - containerPort: 80
